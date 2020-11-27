@@ -20,7 +20,13 @@
             </snapshots>
         </repository>
     </repositories>
-
+    <dependencies>
+          <dependency>
+  <groupId>org.kth</groupId>
+  <artifactId>github-action-maven-tutorial</artifactId>
+  <version>1.1</version>
+</dependency>
+    </dependencies>
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -70,11 +76,7 @@
                         <artifactId>junit-jupiter-engine</artifactId>
                         <version>5.1.0</version>
                     </dependency>
-                         <dependency>
-  <groupId>org.kth</groupId>
-  <artifactId>github-action-maven-tutorial</artifactId>
-  <version>1.1</version>
-</dependency>
+                       
                 </dependencies>
             </plugin>
         </plugins>
