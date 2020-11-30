@@ -11,7 +11,7 @@
     <repository> 
     <id>github</id> 
     <name>GitHub Packages</name>
-    <url>https://maven.pkg.github.com/akhilponnala/TestingGithubCI</url>
+    <url>https://maven.pkg.github.com/akhilponnala/akhiltestcheck</url>
      <releases> 
        <enabled>true</enabled>
       </releases>
@@ -21,11 +21,11 @@
              </repository> 
          </repositories> 
          <dependencies> 
-                  <dependency> 
-                           <groupId>org.kth</groupId> 
-                           <artifactId>github-action-maven-tutorial</artifactId> 
-                           <version>1.2</version>
-                  </dependency> 
+                  <dependency>
+  <groupId>com.akhiltest</groupId>
+  <artifactId>akhiltest-repo</artifactId>
+  <version>1.1.1</version>
+</dependency>
          </dependencies>
     
     <properties>
