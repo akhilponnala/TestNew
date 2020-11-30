@@ -1,4 +1,4 @@
-package com.akhiltest.analytics.proto.model.messages.*;
+import com.akhiltest.analytics.proto.model.messages.*;
 public class App
 {
     public static void main( String[] args )
