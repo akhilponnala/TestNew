@@ -19,7 +19,8 @@
                <enabled>true</enabled>
              </snapshots> 
              </repository> 
-         </repositories> 
+         </repositories>
+      <dependencies> 
          <dependency>
   <groupId>com.akhiltest</groupId>
   <artifactId>akhiltest-repo</artifactId>
